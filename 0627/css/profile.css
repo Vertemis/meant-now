@@ -47,12 +47,8 @@
         }
 
         .card-img {
-            width: 100%;
+            width: 320%;
             margin: 0;
-        }
-
-        .card {
-            width: 320px;
             height: 240px;
             left: 27px;
             top: 1222px;
