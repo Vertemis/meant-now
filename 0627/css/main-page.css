@@ -1,0 +1,89 @@
+.navigation {
+    width: 120px;
+    height: 27px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family:Roboto, Lucida Grande, Lucida Sans Unicode, sans-serif;
+    background-color: #EFF4F8;
+}
+
+h1 {
+    font-size: 30px;
+    color: #454552;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.paragraph {
+    font-size: 24px;
+    font-weight: normal;
+    color: #454552;
+    line-height: 28px;
+    margin-left: 28px;
+    margin-right: 27px;
+    position: absolute;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #C9D6DE;
+
+    min-height: 100px;
+}
+
+.logo {
+    width: 67.77px;
+    height: 60px;
+    align-content: center;
+    margin: 0 auto;
+}
+
+
+.related-text {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.card-flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-img {
+    width: 100%;
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+  
+  .flex-item {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+@media all and (max-width: 768px) {
+    .card {
+        width: 95%;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-desc {
+        font-size: 16px;
+    }
+}
