@@ -11,12 +11,29 @@
         }
 
         .paragraph {
-            font-size: 15px;
-            line-height: 25px;
+            font-size: 18px;
+            line-height: 21px;
             margin-left: 28px;
             margin-right: 27px;
             text-align: center;
         }
+
+        .blockquote1{
+            background-color: rgba(201, 214, 222, 0.5);
+            border-width:0 0 0 5px; 
+            border-style: solid; 
+            border-color:  rgba(69, 69, 82, 0.3); 
+            padding: 5 0 5 15px; 
+            font-size: 18px;
+            color:#454552;
+        }
+
+        .profile {
+            width: 305px;
+            height: 256px;
+            margin: 0 auto;
+            align-items: center;
+            }
 
         nav {
             display: flex;
@@ -53,7 +70,8 @@
         .card {
             width: 410px;
             padding: 20px 12px 25px 12px;
-            margin-right: 40px;
+            margin-right: 27px;
+            margin-left: 28px;
             margin-bottom: 76px;
             position: relative;
 
@@ -76,18 +94,44 @@
             color: black;
         }
 
-        @media all and (max-width: 768px) {
+        @media all and (min-width: 1024px) {
             .card {
-                width: 95%;
-                margin-right: 0;
-                margin-bottom: 40px;
+                width: 520px;
+                margin-right: 50px;
+                margin-bottom: 152px;
             }
-
+            
+            .card-flex-box {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
             .card-title {
                 font-size: 20px;
             }
 
             .card-desc {
                 font-size: 16px;
+            }
+
+            .paragraph {
+                font-size: 40px;
+                line-height:47px;
+            }
+            .profile {
+                width: 493px;
+                height: 402px;
+                }
+
+            .logo{
+                width: 115px;
+                height:91px;
+            }
+
+            .nav{
+                display: flex;
+                align-items: center;
+                background-color: #C9D6DE;
+                height: auto;
             }
         }
