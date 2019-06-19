@@ -23,13 +23,23 @@ text-align: center;
 font-size: 15px;
 line-height: 25px;
 margin-left: 27.5px;
-margin-right: 27.5px;;
+margin-right: 27.5px;
+}
+
+.title{
+font-size:15px;
+font-weight:bold;
+color:#454552;
+text-align:left;
+margin-left:28px;
+margin-right:27px;
 }
 
 nav {
 display: flex;
 align-items: center;
 background-color: #C9D6DE;
+
 min-height: 100px;
 }
 
@@ -69,30 +79,29 @@ padding: 20px 27.5px 25px 27.5px;
 margin-right: 40px;
 margin-bottom: 10px;
 }
-
 .card2 {
 width: 375px;
 padding: 0px 0px 0px 0px;
-}
 
+}
 .card2-img {
 width: 100%;
 margin: 0;
-}
 
+}
 .card2-title {
 font-size: 18px;
 line-height: 21px;
 display: flex;
 text-align: center;
 color: #1E2022;
-}
 
+}
 .card3 {
-width: 410px;
 padding: 20px 27.5px 0px 27.5px;
-}
 
+
+}
 .card-title {
 font-size: 18px;
 line-height: 21px;
@@ -101,6 +110,11 @@ align-items: center;
 text-align: center;
 color: #1E2022;
 
+}
+
+.video-block {
+    position: relative;
+    padding-bottom: 62%;
 }
 
 a{
@@ -123,6 +137,5 @@ color: black;
     font-size: 16px;
 }
 }
-
 
 
