@@ -20,18 +20,27 @@ h1 {
 .paragraph {
     font-size: 24px;
     font-weight: normal;
-    color: #454552;
+    color: #454552 ;
     line-height: 28px;
     margin-left: 28px;
     margin-right: 27px;
     position: absolute;
 }
 
+.title {
+    font-size: 30px;
+    font-weight: normal;
+    color: #181842;
+    line-height: 35px;
+    margin-left: 28px;
+    margin-right: 27px;
+    text-align: left;
+}
+
 nav {
     display: flex;
     align-items: center;
     background-color: #C9D6DE;
-
     min-height: 100px;
 }
 
@@ -52,12 +61,14 @@ nav {
 .card-flex-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    position: relative;
 }
 
 .card-img {
     width: 100%;
     margin: 0;
+    align-items: center;
 }
 
 
@@ -66,24 +77,46 @@ a{
     color: black;
 }
   
-  .flex-item {
+.flex-item {
     width: 100px;
     height: 100px;
     margin: auto;
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 1024px) {
     .card {
-        width: 95%;
-        margin-right: 0;
-        margin-bottom: 40px;
+        width: 520px;
+        margin-right: 50px;
+        margin-bottom: 152px;
     }
 
-    .card-title {
-        font-size: 20px;
+    .card2 {
+        width: 520px;
+        margin-right: 320px;
+        margin-left: 320px;
+        margin-bottom: 152px;
+    }
+    
+    .card-flex-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .card-desc {
-        font-size: 16px;
+    .card-img {
+        width: 100%;
+        margin: 0 ;
+        justify-content: space-around;
     }
+
+    .paragraph {
+        font-size: 45px;
+        line-height: 53px;
+    }
+
+    .title {
+        font-size: 70px;
+        line-height: 35px;
+    }
+
 }
