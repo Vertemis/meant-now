@@ -79,8 +79,9 @@ padding: 20px 27.5px 25px 27.5px;
 margin-right: 40px;
 margin-bottom: 10px;
 }
+
 .card2 {
-width: 375px;
+width: 100vw;
 padding: 0px 0px 0px 0px;
 
 }
@@ -122,20 +123,104 @@ text-decoration: none;
 color: black;
 }
 
-@media all and (max-width: 768px) {
-.card {
-    width: 95%;
-    margin-right: 0;
-    margin-bottom: 40px;
+.blockquote2{
+    background-color:#F5BDBD;
+    margin-right:27.5px;
+    margin-left:27.5px; 
+    padding: 10 7 10 7px; 
+    font-size: 13px;color:#454552;
 }
 
-.card-title {
-    font-size: 20px;
+.paragraph3{
+    font-size:20px;
+    font-weight:bold;
+    color:#181842;
+    text-align:center;
 }
 
-.card-desc {
-    font-size: 16px;
+.video{
+    width:375px; 
+    height:225px; 
 }
+
+
+@media all and (min-width: 1024px) {
+    .card {
+        width: 520px;
+        margin-right: 50px;
+        margin-bottom: 152px;
+    }
+    
+    .card-flex-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-desc {
+        font-size: 16px;
+    }
+
+    .profile {
+        width: 258px;
+        height: 218px;
+        }
+
+    .paragraph {
+        font-size: 24px;
+        line-height: 28px;
+        }
+    
+    .paragraph2 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-left: 260px;
+        margin-right: 260px;
+        }
+    
+    .card3 {
+        width: 49vw;
+        margin-left: 230px;
+        margin-right: 230px;
+        }
+    
+    .blockquote2{
+        margin-right:260px;
+        margin-left:260px; 
+        padding: 10 7 10 7px; 
+        font-size: 22px;
+        color:#454552;
+        }
+    .paragraph3{
+        font-size:36px;
+        font-weight:bold;
+    }
+    .title{
+        font-size:24px;
+        text-align:left;
+        margin-left:260px;
+        margin-right:290px;
+        }
+
+    .video{
+        width:990px; 
+        height:600px;
+    }
+    
+    .logo{
+        width: 115px;
+        height:91px;
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        background-color: #C9D6DE;
+        height: auto;
+    }
 }
 
 
