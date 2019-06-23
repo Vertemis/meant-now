@@ -51,6 +51,14 @@
             align-items: center;
         }
 
+        .profile2 {
+            width: 45px;
+            height: 38px;
+            margin-left: 100px;
+            margin-right: 100px;
+            align-items: center;
+        }
+
         .related-text {
             font-size: 30px;
             font-weight: bold;
@@ -223,6 +231,11 @@
         margin-right:27px;
         }
 
+        .video{
+        width: 325px;
+        height: 183px;    
+        }
+
         @media all and (min-width: 768px) {
         
         .profile {
@@ -230,6 +243,15 @@
         height: 218px;
         align-items: center;
         }
+
+        .profile2 {
+            width: 258px;
+            height: 218px;
+            margin-left: 700px;
+            margin-right: 700px;
+            align-items: center;
+        }
+
         .paragraph{
         font-size: 20px;
         line-height: 28px;
@@ -328,5 +350,10 @@
         color:#454552;
 
         }
+
+        .video{
+            width: 1380px;
+            height: 880px;    
+            }
     
     }
