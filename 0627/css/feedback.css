@@ -19,7 +19,8 @@
             margin-left: 27.5px;
             margin-right: 27.5px;
             text-align: center;
-            color:#454552
+            color:#454552;
+            
         }
 
         .paragraph2 {
@@ -36,6 +37,7 @@
             background-color: #C9D6DE;
 
             height: 90px;
+            width:100vw;
         }
 
         .logo {
@@ -48,9 +50,10 @@
         .profile {
             width: 45px;
             height: 38px;
-            align-items: center;
+            
+           
+            
         }
-
         .profile2 {
             width: 45px;
             height: 38px;
@@ -86,6 +89,7 @@
         .card2 {
             width: 100vw;
             padding: 0px 0px 0px 0px;
+            margin:0 auto;
 
         }
 
@@ -142,7 +146,7 @@
 
         .flex-container {
             display: flex;
-            width: 320px;
+            
             height: 41px;
             justify-content: space-around;
             background-color: #EFF4F8;
@@ -157,6 +161,7 @@
         .flex-item {
             width: 45px;
             height: 41px;
+            margin-left:10px;
             
         }
 
@@ -164,10 +169,11 @@
             width: 50px;
             height: 41px;
             text-align: justify;
-            padding-right: 80px;
+            padding-right: 40px;
             padding-top: 10px;
             font-size: 14px;
             color:#454552;
+            margin-left:5px;
             
         }
 
@@ -212,7 +218,7 @@
         margin-left:0px;
         margin-right:0px;
         padding:0 0 0 0px;
-
+        
         }
         .paragraph3{
         font-size:20px;
@@ -230,11 +236,52 @@
         margin-left:28px;
         margin-right:27px;
         }
-
-        .video{
-        width: 325px;
-        height: 183px;    
+        
+         .a {
+                font-size: 15px;
+                line-height: 30px;
+                color:#5D5D6E;
+                text-align: left;
+            }
+        .icon{
+        width:15px;
+        height:15px;
+        align-items: right;
         }
+        .icon02{
+            width:20px;
+            height:20px;
+            align-items: right;
+            }
+        .arrow{
+            font-size: 15px;
+            line-height: 30px;
+            margin-left: 27.5px;
+            margin-right: 27.5px;
+            color:#5D5D6E;
+            text-align: right;
+        }
+        .flex-item03 {
+            width: 20px;
+            height: 20px;
+            margin-left:10px;
+            margin-right:10px;
+            padding-top:10px;
+            
+        }
+        .flex-item04 {
+            width: 45px;
+            height: 41px;
+            margin-right:30px;
+            padding-top:10px;
+            
+        }
+      
+    
+        
+    
+    
+            
 
         @media all and (min-width: 768px) {
         
@@ -242,17 +289,12 @@
         width: 258px;
         height: 218px;
         align-items: center;
+        margin:0 auto;
+        padding-top:60px;
+        padding-bottom:30px;
         }
-
-        .profile2 {
-            width: 258px;
-            height: 218px;
-            margin-left: 700px;
-            margin-right: 700px;
-            align-items: center;
-        }
-
-        .paragraph{
+        .paragraph{     
+         padding-bottom:10px;
         font-size: 20px;
         line-height: 28px;
         }
@@ -279,21 +321,22 @@
         }
 
         .paragraph2 {
-        font-size: 20px;
-        line-height:42px;
-        margin-left:190px;
-        margin-right:190px;
-        max-width:950px;
+        font-size: 18px;
+        line-height:35px;
+        margin-left:250px;
+        margin-right:250px;
+        max-width:750px;
         }
         
         .blockquote2{
         background-color:#F5BDBD; 
-        margin-left:190px;
-        margin-right:190px;
+        margin-left:250px;
+        margin-right:250px;
         padding: 15 12 15 12px; 
-        font-size: 18px;
+        font-size: 16px;
         color:#454552;
-        max-width:950px;
+        max-width:750px;
+        line-height:25px;
 
         }
 
@@ -304,9 +347,9 @@
         }
 
         .card3 {
-        margin-left:190px;
-        margin-right:190px; 
-        max-width:950px;
+        margin-left:250px;
+        margin-right:250px; 
+        max-width:750px;
 
         }
         .card-img {
@@ -316,8 +359,8 @@
         .title{
         font-size:26px;
         text-align:left;
-        margin-left:190px;
-        margin-right:190px;
+        margin-left:250px;
+        margin-right:250px;
         }
         .logo {
             width: 131px;
@@ -336,8 +379,8 @@
         }
         .blockquote3{
         margin-top:80px;
-        margin-left:190px;
-        margin-right:190px;
+        margin-left:250px;
+        margin-right:250px;
 
         }
         .blockquote{
@@ -346,14 +389,67 @@
         margin-left:0px; 
         margin-right:0px; 
         padding: 5 7 10 7px; 
-        font-size: 18px;
+        font-size: 16px;
         color:#454552;
 
         }
+        .profile2 {
+            width: 258px;
+            height: 218px;
+            margin-left: 700px;
+            margin-right: 700px;
+            align-items: center;
+        }
+
+        
+    
+    
+    .a {
+        font-size: 20px;
+        line-height:42px;
+        max-width:950px;
+    }
+    .icon{
+        width:30px;
+        height:30px;
+        align-items: right
+        }
+        .icon02{
+            width:20px;
+            height:20px;
+            align-items: right
+            }
+        .arrow{
+            
+            margin-left:250px;
+            margin-right:250px;
+            min-width:500px;
+            max-width:950px;
+        }
+        .flex-container {
+            display: flex;
+            
+            height: 41px;
+            justify-content: space-around;
+            background-color: #EFF4F8;
+            border-width: 1 1 1 1px;
+            border-style: solid;
+            border-color: #181842;
+            padding: 10 10 10 10px;
+            margin-right: 250px;
+            margin-left: 250px;
+        }
+        .video-block {
+            position: relative;
+            padding-bottom:60px;
+            padding-top:60px;
+        
+        }
 
         .video{
-            width: 1380px;
-            height: 880px;    
-            }
-    
+            width: 90vw;
+            height: 90vh;
+        }
+
     }
+    
