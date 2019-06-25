@@ -20,6 +20,7 @@
             margin-right: 27.5px;
             text-align: center;
             color:#454552;
+            font-weight:600;
             
         }
 
@@ -29,6 +30,7 @@
             margin-left: 27.5px;
             margin-right: 27.5px;
             color:#5D5D6E;
+            font-weight:600;
         }
 
         nav {
@@ -198,6 +200,7 @@
         padding: 5 7 10 7px; 
         font-size: 13px;
         color:#454552;
+        font-weight:600;
 
         }
 
@@ -208,6 +211,7 @@
         padding: 10 7 10 7px; 
         font-size: 13px;
         color:#454552;
+        
 
         }
         .blockquote3{
