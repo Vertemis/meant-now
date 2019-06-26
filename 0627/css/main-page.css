@@ -17,27 +17,26 @@ h1 {
     font-size: 15px;
     color: #454552 ;
     line-height: 30px;
-    margin-left: 19px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 0.25px;
     margin-bottom: 50px;
 }
 
+.logo2 {
+    width: 50px;
+    height: 43.33px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
 .paragraph4 {
     font-size: 13px;
-    color: #5D5D6E ;
-    line-height: 30px;
-    margin-left: 105px;
-    position: absolute;
 }
 
 .paragraph5 {
     font-size: 13px;
-    color: #5D5D6E;
-    font-display: bold;
-    line-height: 30px;
-    margin-left: 145px;
-    position: absolute;
-    top:100px;
+    margin-left: 45px;
 }
 
 .title {
@@ -50,7 +49,7 @@ h1 {
     margin-bottom: 0.20px;
 }
 
-nav {
+.nav {
     display: flex;
     align-items: center;
     background-color: #C9D6DE;
@@ -59,10 +58,11 @@ nav {
 }
 
 .footer{
-    display: flex;
+    height: 150px;
     align-items: center;
     background-color: #C9D6DE;
-    height: 152px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .logo {
@@ -72,12 +72,7 @@ nav {
     margin: 0 auto;
 }
 
-.logo2 {
-    width: 50px;
-    align-content: center;
-    margin: 0 auto;
-    margin-bottom: 80px;
-}
+
 
 
 .related-text {
@@ -140,29 +135,14 @@ a{
     .paragraph {
         font-size: 25px;
         line-height: 50px;
-        margin-left: 250px;
         margin-bottom: 150px;
-    }
-
-    .paragraph4 {
-        font-size: 20px;
-        line-height: 30px;
-        margin-left: 650px;
-    }
-
-    .paragraph5 {
-        font-size: 20px;
-        color: #5D5D6E;
-        font-display: bold;
-        line-height: 30px;
-        margin-left: 700px;
-        position: absolute;
+        margin-left: 300px;
     }
 
     .title {
         font-size: 70px;
         line-height: 120px;
-        margin-left: 250px;
+        margin-left: 300px;
     }
     
     .logo{
@@ -170,15 +150,20 @@ a{
         height:104px;
     }
 
-    .logo2 {
-        width: 51px;
-        align-content: center;
-        margin-left:820px;
-        margin-bottom: 80px;
-    }
-
     .nav{
         height:150px;
+    }
+    .paragraph4 {
+        font-size: 25px;
+        line-height: 40px;
+        margin: 0 auto;
+        text-align:center;
+    }
+    
+    .paragraph5 {
+        font-size: 25px;
+        line-height: 50px;
+        margin-left: 75px;
     }
     
 }
